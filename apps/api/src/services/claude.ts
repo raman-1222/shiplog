@@ -46,7 +46,7 @@ PR Description: ${data.prBody || "No description provided"}
       "X-Title": "ShipLog",
     },
     body: JSON.stringify({
-      model: "mistralai/mistral-7b-instruct:free",
+      model: "nvidia/nemotron-3-super-120b-a12b:free",
       messages: [
         { role: "system", content: SYSTEM_PROMPT },
         { role: "user", content: userMessage },
